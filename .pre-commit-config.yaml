@@ -1,0 +1,49 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-ast
+        name: Check Python files
+      - id: check-json
+        name: Check JSON files
+      - id: check-yaml
+        name: Check YAML files
+      - id: check-toml
+        name: Check TOML files
+      - id: check-xml
+        name: Check XML files
+      - id: trailing-whitespace
+        name: Remove Trailing Whitespace
+        args:
+          - --markdown-linebreak-ext=md
+      - id: check-docstring-first
+        name: Check Docstring precedes code
+      - id: end-of-file-fixer
+        name: Fix EOF Newlines
+      - id: no-commit-to-branch
+        name: Block commits to protected branches
+        args:
+          - --branch=main
+      - id: requirements-txt-fixer
+        name: Sort requirements.txt
+      - id: mixed-line-ending
+        name: Fix mixed line endings
+        args:
+          - --fix=auto
+      - id: name-tests-test
+        name: Verify tests naming convention
+        args:
+          - --pytest-test-first
+      - id: pretty-format-json
+        name: Prettify JSON
+        args:
+          - --autofix
+          - --no-ensure-ascii
+          - --no-sort-keys
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: "v0.2.2"
+    hooks:
+      - id: ruff-format
+        name: Ruff Formatter
+      - id: ruff
+        name: Ruff Linter
