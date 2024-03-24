@@ -53,9 +53,9 @@ implementations.
 
 :x: __Best-in-class Performance__ - Though Julia is widely considered a very high-performance language (it is actually a
 major reason why it's used under the hood here), grizzlys is still a work-in-progress (WIP) and therefore does not
-currently aim to compete with, or outperform, other high-performance DataFrame libraries, such as [__Polars
-__](https://github.com/pola-rs/polars) (written in Rust) or [__Modin__](https://github.com/modin-project/modin) (
-Multi-threaded pandas).
+currently aim to compete with, or outperform, other high-performance DataFrame libraries, such as 
+[__Polars__](https://github.com/pola-rs/polars) (written in Rust) or 
+[__Modin__](https://github.com/modin-project/modin) (Multi-threaded pandas).
 
 This, of course, might no longer be a limitation in the future, as __grizzlys__ will have undergone optimizations and
 maturation.
