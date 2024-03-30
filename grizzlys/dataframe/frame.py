@@ -1,6 +1,6 @@
 """
 Module for grizzlys DataFrame Implementation
-# TODO: elaborate
+# TODO: elaborate here
 """
 
 
@@ -8,5 +8,5 @@ class DataFrame:
     """
     # TODO: add docstring
     """
-    def __init__(self):
-        ...
+
+    def __init__(self): ...
