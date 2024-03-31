@@ -1,12 +1,9 @@
 from functools import wraps
 from typing import Sequence
-
-import juliacall
-
-jl = juliacall.newmodule("grizzlys")
+from grizzlys.core.session import julia as jl
 
 
-def julia_using_modules(modules: Sequence[str]):
+def julia_using(modules: Sequence[str]):
     def using_decorator(function: callable):
         @wraps(function)
         def wrapper(*args, **kwargs):
