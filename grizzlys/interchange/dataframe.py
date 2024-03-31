@@ -1,6 +1,6 @@
 import juliacall
 
 jl = juliacall.newmodule("grizzlys.interchange.dataframe")
-jl.seval("using DataFrames, CSV")
 
-dir(jl)
+df = jl.DataFrame(jl.CSV.File("/Users/hadars/Downloads/adjust_skad_libi.csv"))
+print(dir(df))
