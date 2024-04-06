@@ -1,4 +1,4 @@
-![grizzlys](docs/logos/grizzlys-logo-cubes-with-text-large.png "grizzlys")
+![grizzlys](docs/logos/grizzlys-logo-cubes-with-text.png "grizzlys")
 
 <hr>
 
