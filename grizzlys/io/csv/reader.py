@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from grizzlys.utils.decorators import julia_using
+from grizzlys._utils.decorators import julia_using
 from grizzlys.core.session import julia as jl
 
 
