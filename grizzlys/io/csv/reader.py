@@ -6,4 +6,5 @@ from grizzlys.core.session import julia as jl
 
 @julia_using(["DataFrames", "CSV"])
 def read_csv(filepath: str | Path):
-    return jl.DataFrame(jl.CSV.File(str(filepath)))
+    df = jl.DataFrame(jl.CSV.File(str(filepath)))
+    return df
