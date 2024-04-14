@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "grizzlys"
 description = "Python DataFrames powered by Julia"
-version = "0.0.1"
+version = "0.0.1.dev1"
 authors = [
     { name = "Hadar Sharon", email = "hadar.sharon94@gmail.com" },
 ]
