@@ -1,4 +1,4 @@
 juliacall==0.9.19 # Julia/Python interface
 pre-commit==3.7.0 # pre-commit hooks
 pytest==8.1.1 # testing framework
-ruff==0.3.4 # formatter/linter
+ruff==0.3.7 # formatter/linter
